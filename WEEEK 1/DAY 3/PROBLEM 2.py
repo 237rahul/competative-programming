@@ -21,8 +21,3 @@ def is_binary_search_tree(root):
    if root.left==None:
        return is_binary_search_tree(root.right)
    return is_binary_search_tree(root.left) and is_binary_search_tree(root.right)
-
-   # return True
-
-
-
